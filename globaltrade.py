@@ -49,12 +49,7 @@ class globaltradeSpider(scrapy.Spider):
 			yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
 
 
-print logo_url
-print title
-print sub_title
-print primary_location
-print area_of_expertise
-print about
+
 
 
 			
